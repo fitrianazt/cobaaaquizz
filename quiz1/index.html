@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+     <!--==================== SWIPER CSS ====================-->
+     <link rel="stylesheet" href="../assets/swiper-bundle.min.css">
+     
+     <!--==================== CSS ====================-->
+     <link rel="stylesheet" href="../assets/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Ana</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">
+                                <i class="uil uil-home nav__icon"></i> Homepage
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="profile.html" class="nav__link active-link">
+                                <i class="uil uil-user nav__icon"></i> Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="hometown.html" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Hometown
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="food.html" class="nav__link">
+                                <i class="uil uil-crockery nav__icon"></i> Food
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="tourist.html" class="nav__link">
+                                <i class="uil uil-globe nav__icon"></i> Tourist
+                            </a>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                                            <!--==================== CHANGE BUTTON THEME ====================-->
+                                            <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main" id="main">
+            <!--==================== Home ====================-->
+            <section class="home section" id="home">
+               <div class="home__container container grid">
+                   <div class="home__content grid">
+                       <div class="home__social">
+                            <a href="https://www.linkedin.com/in/fitriana-zahirah/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                           <a href="https://www.github.com/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i> 
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" xlink:href="../assets/pcr.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hello, I'm Ana</h1>
+                            <h3 class="home__subtitle">Fitriana Zahirah Tsabit</h3>
+                            <p class="home__description">Institut Teknologi Sepuluh Nopember<br>
+                                Bachelor of Informatics, Faculty of Intelligent Electrical and Informatics Technology 
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                   </div>
+                   <div class="home__scroll">
+                       <a href="#profile" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                   </div>
+               </div>
+            </section>
+
+            <!--==================== profile ====================-->
+            <section class="about section" id="profile">
+                <h2 class="profile__title">Profile</h2>
+             <!--====================   <span class="section__subtitle">Introduction</span> ====================-->
+
+                <div class="about__container container grid">
+                    <img src="../assets/pcr.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">I'm a hardworking person and have a curiosity in learning new things, that I can have high motivation in learning something. Based on my experience so far, I am someone who strives to be able to go to various aspects, such as science through Robotics Competitions, community activities through BEM of Faculty, business through Grounded Business Coaching and other things. During my current studies, I am active in organizations and committees that make me adaptable and able to work under pressure</p>
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info-title">04+</span>
+                                    <span class="about__info-name">Organization<br>Experience</span>
+                                </div>
+                                <div>
+                                    <span class="about__info-title">20+</span>
+                                    <span class="about__info-name">Competition<br>Experience</span>
+                                </div>
+                                <div>
+                                    <span class="about__info-title">05+</span>
+                                    <span class="about__info-name">Project<br>Manajement</span>
+                                </div>
+                            </div>
+                            <div class="about__buttons">
+                                <a download="" href="../assets/CV.pdf" class="button button--flex">
+                                    Download CV<i class="uil uil-cloud-download button_icon"></i>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </section>
+                 
+            <!--==================== Hometown ====================-->
+            <section class="about section" id="hometown">
+                <div class="hometown_bg">
+                <h2 class="hometown__title">Hometown</h2>
+                <span class="hometown__subtitle">Yogyakarta</span>
+
+                <div class="about__container container grid">
+                    <iframe width="540" height="295" src="https://www.youtube.com/embed/-dQexveY0cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="hometown__video"></iframe>
+                    <div class="about__data">
+                        <p class="hometown__description">Yogyakarta is a bustling town of some half a million 
+                            people and the most popular tourist destination on Java, largely thanks to its 
+                            proximity to the temples of Borobudur and Prambanan. The town is a hub of art 
+                            and education, offers some good shopping and has a wide range of tourist facilities.
+
+                            Strictly speaking, the city (kota) of Yogyakarta is only one of five districts 
+                            within the semi-autonomous region of Daerah Istimewa Yogyakarta (DIY), literally 
+                            the "Yogyakarta Special Region". (The other districts are Sleman on the slopes 
+                            of fiery Mount Merapi to the North, Bantul all the way to the sea to the South, 
+                            the hills of Gunungkidul to the East and the low lands of Kulon Progo to the West.) 
+                            This special status is thanks to the Sultanate of Hamengkubuwono, which has ruled 
+                            the area since 1755 and steered the state through difficult times of occupation and 
+                            revolution. During the Indonesian war of independence, Sultan Hamengkubuwono IX offered 
+                            the fledgling Indonesian government his enclave as capital city, thus Yogyakarta became 
+                            the revolutionary capital city of the republic from 1946 to 1949 when Jakarta was 
+                            still occupied by the Dutch. As a result, the central government recognized the 
+                            Sultan of Yogyakarta as the appointed governor of Yogyakarta Special Region; 
+                            the only one in Indonesia that is not elected directly by the people. 
+                            The Indonesian central government has tried to weaken the sultan's power 
+                            by calling for direct election for the governor, however the present Sultan 
+                            Hamengkubuwono X was chosen by an overwhelming majority.</p>
+                            <div class="about__info">
+                    </div>
+                </div>
+                </div>   
+            </section>  
+
+            <!--==================== Food 
+             <section class="foods section" id="foods">
+                <h2 class="section__title">foods</h2>
+                <span class="section__subtitle">Yogyakarta</span>
+                <div class="foods__container container grid">
+                    <!--==================== Hometown 1
+                    <div class="foods__content">
+                       <div>
+                        <i class="uil uil-rocket hometown__icon"></i>
+                        <h3 class="hometown__title">Heha<br> Sky View</h3>
+                       </div>
+                       <span class="button button--flex button--small button--link hometown__button">
+                           View More
+                           <i class="uil uil-angle-double-right button__icon"></i>
+                       </span>
+
+                       <div class="hometown__modal">
+                           <div class="hometown__modal-content">
+                                <h4 class="hometown__modal-title">Heha <br> Sky View</h4>
+                                <i class="uil uil-store hometown__modal-close"></i>
+
+                                <ul class="hometown__modal-hometown grid">
+                                    <li class="hometown__modal-hometows">
+                                        <i class="uil uil-check-circle hometown__modal-icon"></i>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                           </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </section>====================-->
+                    <!--==================== Foods ====================-->
+     <section class="testimonial section" id="food">
+        <h2 class="section__title">Food</h2>
+        <span class="section__subtitle">You Must Eat</span>
+
+        <div class="food__container container swiper mySwiperQ">
+            <div class="swiper-wrapper">
+     <!--==================== Foods 1====================-->
+                <div class="food__content swiper-slide">
+                    <div class="food__data">
+                        <div class="food__header">
+                            <img src="../assets/gudeg1.jpg" alt="" class="food__img">
+                            <div>
+                                <h3 class="food__name">Gudeg</h3>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="uil uil-star food__icon-star"></i>
+                            <i class="uil uil-star food__icon-star"></i>
+                            <i class="uil uil-star food__icon-star"></i>
+                            <i class="uil uil-star food__icon-star"></i>
+                            <i class="uil uil-star food__icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="food_description">
+                        Made from young gori or jackfruit cooked with coconut milk, palm sugar, and spices until really tender. Then served with various complementary side dishes such as chili krecek, chicken opor, egg moved, and thick textured areh sprinkles.
+                    </p>
+                </div>
+                <!--==================== Foods 2====================-->
+                <div class="food__content swiper-slide">
+                    <div class="food__data">
+                        <div class="food__header">
+                            <img src="../assets/bakpia.jpg" alt="" class="food__img">
+                                <div>
+                                    <h3 class="food__name">Bakpia Pathok</h3>
+                                </div>
+                        </div>
+    
+                                <div>
+                                        <i class="uil uil-star food__icon-star"></i>
+                                        <i class="uil uil-star food__icon-star"></i>
+                                        <i class="uil uil-star food__icon-star"></i>
+                                        <i class="uil uil-star food__icon-star"></i>
+                                        <i class="uil uil-star food__icon-star"></i>
+                                </div>
+                        </div>
+                                <p class="food_description">
+                                    Bakpia is referred to as meat bakpia or salty bakpia. While sweet bakpia usually contains green beans or sweet potatoes that are soaked for several nights, steamed for an hour, then fried in oil, salt, and sugar.
+                                </p>
+                    </div>
+                 <!--==================== Foods 3====================-->
+                <div class="food__content swiper-slide">
+                    <div class="food__data">
+                        <div class="food__header">
+                            <img src="../assets/geplak.jpg" alt="" class="food__img">
+                            <div>
+                                <h3 class="food__name">Geplak</h3>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="uil uil-star food__icon-star"></i>
+                            <i class="uil uil-star food__icon-star"></i>
+                            <i class="uil uil-star food__icon-star"></i>
+                            <i class="uil uil-star food__icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="food_description">
+                        Geplak in the form of spheres from coconut meat served with a sweet taste
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-food"></div>
+        </div>
+    </section> 
+            <!--==================== tourist ====================-->
+<section class="tourist section" id="tourist">
+    <h2 class="section__title">Tourist</h2>
+    <span class="section__subtitle">Must Visit Place</span> 
+    <div class="tourist__container container swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!--==================== tourist 1 ====================-->
+            <div class="tourist__content grid swiper-slide">
+                <img src="../assets/pram.jpg" alt="" class="tourist__img">
+                <div class="tourist__data">
+                    <h3 class="tourist__title">Prambanan</h3>
+                    <p class="tourist__description">Built on the ninth Century, Prambanan Temple is the largest 
+                        Hindu temple complex in Indonesia. The first mention of Prambanan 
+                        was in the Syiwagrha Inscription (856AD). With three main temples 
+                        for the Trimurti; Shiva the destroyer of the universe, Vishnu the 
+                        keeper of the universe, and Brahma the creator of the universe. 
+                        </p>
+                    <a href="#" class="button button--flex button--small tourist__button">Details
+                        <i class="uil uil-step-forward button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!--==================== tourist 2 ====================-->
+            <div class="tourist__content grid swiper-slide">
+                <img src="../assets/heha.jpg" alt="" class="tourist__img">
+                <div class="tourist__data">
+                    <h3 class="tourist__title">Heha Sky View</h3>
+                    <p class="tourist__description">One of the favorite tourist destinations that offers the best 
+                        views of the city of Yogyakarta and its surroundings “from the 2nd floor”. 
+                        Located in the hilly area of Gunungkidul, HeHa Sky View is only 40 minutes from downtown Yogyakarta.</p>
+                    <a href="#" class="button button--flex button--small tourist__button">Details
+                        <i class="uil uil-step-forward button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!--==================== tourist 3 ====================-->
+            <div class="tourist__content grid swiper-slide">
+                <img src="../assets/mal.jpg" alt="" class="tourist__img">
+                <div class="tourist__data">
+                    <h3 class="tourist__title">Malioboro</h3>
+                    <p class="tourist__description">Jalan Malioboro is a major shopping street in Yogyakarta, 
+                        Indonesia; the name is also used more generally for the neighborhood around the street. 
+                        It lies north–south axis in the line between Yogyakarta Kraton and Mount Merapi. 
+                        </p>
+                    <a href="#" class="button button--flex button--small tourist__button">Details
+                        <i class="uil uil-step-forward button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next">
+            <i class="uil uil-angle-double-right swiper-tourist-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+            <i class="uil uil-angle-double-left swiper-tourist-icon"></i>
+        </div>   
+        <div class="swiper-pagination">
+
+        </div> 
+    </div>
+
+</section> 
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in my Circle</span>
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i> 
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">0823333555044</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i> 
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">fitrianatsabit@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i> 
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Jakal, Yogyakarta</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Ana</h1>
+                    <span class="footer__subtitle">Informatics</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#food" class="footer__link">Food</a>
+                    </li>
+                    <li>
+                        <a href="#tourist" class="footer__link">Tourist</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/anaazahirah/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+
+            </div>
+                <p class="footer__copy">&#169; All Right Reserved</p>
+            </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="uil uil-arrow-up scrollup__icon"></i>
+
+            </a>
+
+                    <!--==================== SWIPER JS ====================-->
+                    <script src="../assets/swiper-bundle.min.js"></script>
+
+                    <!--==================== MAIN JS ====================-->
+                    <script src="../assets/main.js"></script> 
+    </body>
+</html>
